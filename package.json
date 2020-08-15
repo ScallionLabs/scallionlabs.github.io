@@ -1,0 +1,11 @@
+{
+  "name": "pitchfork",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gaetano Checinski",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "superagent": "^6.0.0"
+  }
+}
