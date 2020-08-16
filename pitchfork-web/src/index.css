@@ -1,21 +1,5 @@
-.Navigation {
-  display: flex;
-  width:100%;
-  justify-content: stretch;
-  background: blue;
-  padding:1em;
-  color: white;
-  font-size:2em;
-  align-items: stretch;
-  margin-bottom: 1em;
-}
-
-.Navigation * {
-  text-decoration: none;
-  color: white;
-}
-
-body {
+body, html {
+  padding:0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -24,11 +8,85 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.Navigation {
+  display: flex;
+  width:100%;
+  justify-content: stretch;
+  background: #eee;
+  padding:1em;
+  color: orange;
+  font-size:2em;
+  align-items: stretch;
+  box-sizing: border-box;
+
+}
+
+.Navigation * {
+  text-decoration: none;
+  color: orange;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: stretch;
+  align-content: center;
+  background: orange;
+  color:#eee;
+  font-weight: 700;
+  padding: 3em;
+  box-sizing: border-box;
+  flex-flow: row wrap;
+  margin:0;
+}
+
+.banner > * {
+  display: block;
+  box-sizing: border-box;
+  min-width: 400px;
+  margin: auto;
+  padding: 1em;
+}
+
+.banner .tagline {
+  width: 50%;
+}
+
+.banner p {
+  display: block;
+  width: 100%;
+  font-size: 3em;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.banner .copic {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.copic img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: brown 0 0 100px 10px;
+}
+
+.videos {
+  margin:0;
+  padding:2em;
+  color: orange;
+  background: black;
+}
+
+iframe {
+  margin: 0.5em;
+}
+
 .grid {
   width:100%;
   display:flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-flow: row wrap;
 }
 
@@ -38,21 +96,20 @@ body {
   background-repeat: no-repeat;
   width: 400px;
   border-radius: 10px;
-  margin-bottom: 2em;
-  overflow: hidden;
+  margin: 0.5em;
+    overflow: hidden;
 }
 
-.card .info {
+.card .meta {
   width: 100%;
-  margin-right: 1em;
-  background:rgba(200, 200, 200, 0.5);
-  display: flex;
-  align-content: stretch;
-  justify-content: space-between;
+  display: block;
+  background: burlywood;
+  padding: 0 1em 1em 1em;
 }
 
 
 .card * {
+  min-width: 200px;
   max-width: 400px;
 }
 
@@ -62,7 +119,6 @@ body {
 
 .card .title {
   font-weight: 600;
-  background:rgba(200, 200, 200, 0.5);
   display: inline-block;
   height: 1.25em;
   overflow: show;
@@ -71,6 +127,22 @@ body {
 .card .image {
   display:block;
   width: 100%;
+  border-bottom: solid 2px orange;
+  padding: 0;
+  margin: 0;
+}
+
+
+.card .source {
+  display:inline-block;
+  position:relative;
+  text-align:center;
+  height: 1.5em;
+  padding: 0.2em;
+  left: 2em;
+  top: -1em;
+  background: orange;
+  border-radius: 5px;
 }
 
 .card:hover .image img {
@@ -78,13 +150,58 @@ body {
 }
 
 .card .image img {
+  position:relative;
   width: 100%;
   transition: all 0.1s ease-in;
-  z-index: -1;
+  z-index: -99;
 }
 
-.card .source {
-  display: block;
-  background:rgba(200, 200, 200, 0.5);
-  color: black;
+
+.macros {
+  display: flex;
+}
+
+.macros > * {
+  display:inline-block;
+  color: white;
+}
+
+.macros .fat {
+  background: black;
+}
+
+
+.macros .protein {
+  background: red;
+}
+
+.macros .carbs {
+  background:green;
+}
+
+.Nutrition {
+  display: flex;
+  background: orange;
+  justify-content: stretch;
+}
+
+.Nutrition > div {
+  padding: 2em;
+  flex-grow: 1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.tag {
+  border: blue solid 1px;
+  padding: 0.2em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.summaryList li {
+  line-height: 2em;
 }
