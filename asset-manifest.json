@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/foodwall/static/css/main.e4a6ff6f.chunk.css",
+    "main.js": "/foodwall/static/js/main.b49c5d93.chunk.js",
+    "main.js.map": "/foodwall/static/js/main.b49c5d93.chunk.js.map",
+    "runtime-main.js": "/foodwall/static/js/runtime-main.2376b3fe.js",
+    "runtime-main.js.map": "/foodwall/static/js/runtime-main.2376b3fe.js.map",
+    "static/css/2.301005e7.chunk.css": "/foodwall/static/css/2.301005e7.chunk.css",
+    "static/js/2.3482983b.chunk.js": "/foodwall/static/js/2.3482983b.chunk.js",
+    "static/js/2.3482983b.chunk.js.map": "/foodwall/static/js/2.3482983b.chunk.js.map",
+    "index.html": "/foodwall/index.html",
+    "precache-manifest.61761e0414ccf6873747de0b79a909da.js": "/foodwall/precache-manifest.61761e0414ccf6873747de0b79a909da.js",
+    "service-worker.js": "/foodwall/service-worker.js",
+    "static/css/2.301005e7.chunk.css.map": "/foodwall/static/css/2.301005e7.chunk.css.map",
+    "static/css/main.e4a6ff6f.chunk.css.map": "/foodwall/static/css/main.e4a6ff6f.chunk.css.map",
+    "static/js/2.3482983b.chunk.js.LICENSE.txt": "/foodwall/static/js/2.3482983b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2376b3fe.js",
+    "static/css/2.301005e7.chunk.css",
+    "static/js/2.3482983b.chunk.js",
+    "static/css/main.e4a6ff6f.chunk.css",
+    "static/js/main.b49c5d93.chunk.js"
+  ]
+}
